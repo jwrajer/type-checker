@@ -1,0 +1,372 @@
+body {
+  font-family: Arial;
+}
+
+.innactive {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 15px 32px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 25px;
+    display: inline-block;
+    color: white;
+  }
+
+  .active {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 15px 32px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 25px;
+    display: inline-block;
+    color: white;
+  }
+
+#weakness {
+  display: Flex;
+  flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 100px;
+   padding: 20px;
+}
+
+#weaknessBox {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+   align-items: center;
+   justify-content: center;
+  height: 100px;
+  font-size: 25px;
+  color: white;
+}
+  
+  
+  #Fire {
+    background-color: #F5AC78;
+  }
+  #Fire:hover {
+    background-color: #F08030;
+  }
+  #Fire.active  {
+    background-color: #9C531F;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  }
+  .Fire {
+    background-color: #F5AC78;
+  }
+
+
+#Water {
+  background-color: #9DB7F5;
+}
+#Water:hover {
+  background-color: #6890F0;
+}
+#Water.active  {
+  background-color: #445E9C;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Water {
+  background-color: #9DB7F5;
+}
+
+
+#Grass{
+  background-color: #A7DB8D;
+}
+#Grass:hover {
+  background-color: #78C850;
+}
+#Grass.active  {
+  background-color: #4E8234;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Grass{
+  background-color: #A7DB8D;
+}
+
+
+#Normal{
+  background-color: #C6C6A7;
+}
+#Normal:hover {
+  background-color: #A8A878;
+}
+#Normal.active  {
+  background-color: #6D6D4E;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Normal{
+  background-color: #C6C6A7;
+}
+
+
+#Fighting{
+  background-color: #D67873;
+}
+#Fighting:hover {
+  background-color: #C03028;
+}
+#Fighting.active  {
+  background-color: #7D1F1A;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Fighting{
+  background-color: #D67873;
+}
+
+#Flying{
+  background-color: #C6B7F5;
+}
+#Flying:hover {
+  background-color: #A890F0;
+}
+#Flying.active  {
+  background-color: #6D5E9C;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Flying{
+  background-color: #C6B7F5;
+}
+
+
+#Poison{
+  background-color: #C183C1;
+}
+#Poison:hover {
+  background-color: #A040A0;
+}
+#Poison.active  {
+  background-color: #682A68;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Poison{
+  background-color: #C183C1;
+}
+
+
+#Ground{
+  background-color: #EBD69D;
+}
+#Ground:hover {
+  background-color: #E0C068;
+}
+#Ground.active  {
+  background-color: #927D44;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Ground{
+  background-color: #EBD69D;
+}
+
+
+
+#Rock{
+  background-color: #D1C17D;
+}
+#Rock:hover {
+  background-color: #B8A038;
+}
+#Rock.active  {
+  background-color: #786824;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Rock{
+  background-color: #D1C17D;
+}
+
+
+
+#Bug{
+  background-color: #C6D16E;
+}
+#Bug:hover {
+  background-color: #A8B820;
+}
+#Bug.active  {
+  background-color: #6D7815;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Bug{
+  background-color: #C6D16E;
+}
+
+
+
+#Ghost{
+  background-color: #A292BC;
+}
+#Ghost:hover {
+  background-color: #705898;
+}
+#Ghost.active  {
+  background-color: #493963;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Ghost{
+  background-color: #A292BC;
+}
+
+
+
+#Steel{
+  background-color: #D1D1E0;
+}
+#Steel:hover {
+  background-color: #B8B8D0;
+}
+#Steel.active  {
+  background-color: #787887;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Steel{
+  background-color: #D1D1E0;
+}
+
+
+
+#Electric{
+  background-color: #FAE078;
+}
+#Electric:hover {
+  background-color: #F8D030;
+}
+#Electric.active  {
+  background-color: #A1871F;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Electric{
+  background-color: #FAE078;
+}
+
+
+
+#Psychic{
+  background-color: #FA92B2;
+}
+#Psychic:hover {
+  background-color: #F85888;
+}
+#Psychic.active  {
+  background-color: #A13959;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Psychic{
+  background-color: #FA92B2;
+}
+
+
+
+#Ice{
+  background-color: #BCE6E6;
+}
+#Ice:hover {
+  background-color: #98D8D8;
+}
+#Ice.active  {
+  background-color: #638D8D;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Ice{
+  background-color: #BCE6E6;
+}
+
+
+
+#Dragon{
+  background-color: #A27DFA;
+}
+#Dragon:hover {
+  background-color: #7038F8;
+}
+#Dragon.active  {
+  background-color: #4924A1;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Dragon{
+  background-color: #A27DFA;
+}
+
+
+#Dark{
+  background-color: #A29288;
+}
+#Dark:hover {
+  background-color: #705848;
+}
+#Dark.active  {
+  background-color: #49392F;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Dark{
+  background-color: #A29288;
+}
+
+
+#Fairy{
+  background-color: #F4BDC9;
+}
+#Fairy:hover {
+  background-color: #EE99AC;
+}
+#Fairy.active  {
+  background-color: #9B6470;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+
+}
+.Fairy{
+  background-color: #F4BDC9;
+}
+
+
+
+.typeButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   /* You can set flex-wrap and
+      flex-direction individually */
+   flex-direction: row;
+   flex-wrap: wrap;
+   /* Or do it all in one line
+     with flex flow */
+   flex-flow: row wrap;
+   /* tweak where items line
+      up on the row
+      valid values are: flex-start,
+      flex-end, space-between,
+      space-around, stretch */
+   align-content: flex-end;
+}
+}
+
+.element{
+  width: 200px;
+  background-color: red; 
+}
